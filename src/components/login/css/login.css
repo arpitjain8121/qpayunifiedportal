@@ -1,0 +1,63 @@
+.signIn{
+    border:1px solid #ddddde;
+    height: auto;
+    margin:0px auto;
+    max-width: 450px;
+    width:100%;
+    background-color: #fff!important;
+}
+
+.signIn__heading{
+    color: #2d2e2f;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top:0;
+}
+
+.input_signIn{
+    height: 45px;
+    border: solid 1px #ddddde;
+    font-size: 0.9rem;
+    color:#989998;
+    letter-spacing: 0.15px;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.field-placeholder{position: absolute;top:11px;left: 25px;color:#989998;}
+
+.signIn__FormGroup .field-placeholder span{
+    background: #ffffff;padding: 0px 3px;
+}
+
+.signIn__FormGroup input:not([disabled]):focus~.field-placeholder{
+    color:#989998;
+}
+
+.error-message{
+    color:red;
+    font-size: 0.8rem;
+    display: none;
+}
+
+.signIn__FormGroup input:not([disabled]):focus~.field-placeholder,
+.signIn__FormGroup.hasValue input:not([disabled])~.field-placeholder{
+        font-size:0.9rem;
+        -webkit-transform: translateY(-23px) translateX(-2px);
+        -moz-transform: translateY(-23px) translateX(-2px);
+        transform: translateY(-22px) translateX(-2px);
+        text-align: left !important;
+}
+
+.signIn__btn{
+    color: #382705;
+    background-color: #f8b318;
+    width: 100%;
+    padding:9px;
+    border-radius:0px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.signIn__alreadyAccount{margin-top: 1.5rem;text-align: center;color:#4c4d4e;}
